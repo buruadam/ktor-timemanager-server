@@ -1,0 +1,16 @@
+ktor:
+  application:
+    modules:
+      - com.adam.buru.ApplicationKt.module
+  deployment:
+    port: 8081
+  database:
+    url: "jdbc:mysql://localhost:3306/timemanager_db"
+    driver: "com.mysql.cj.jdbc.Driver"
+    user: "root"
+    password: ""
+jwt:
+  audience: "my-audience"
+  issuer: "my-issuer"
+  realm: "my-realm"
+  secret: "secretpassword"
