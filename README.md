@@ -11,6 +11,7 @@ The **Timemanager Server** is my server-side logic for my [Timemanager Android A
 *   **Database:** H2 (Embedded)
 *   **ORM:** Exposed
 *   **Serialization:** Kotlinx Serialization (JSON)
+*   **Testing:** MockK & JUnit 5 (unit tests)
 
 ## ✨ Key Features
 
